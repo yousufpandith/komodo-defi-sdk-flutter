@@ -41,8 +41,8 @@ final config = AssetRuntimeUpdateConfig(
   fetchAtBuildEnabled: false,
   updateCommitOnBuild: false,
   bundledCoinsRepoCommit: 'abcdef123456',
-  coinsRepoApiUrl: 'https://api.github.com/repos/GLEECBTC/coins',
-  coinsRepoContentUrl: 'https://raw.githubusercontent.com/GLEECBTC/coins',
+  coinsRepoApiUrl: 'https://api.github.com/repos/yousufpandith/coins',
+  coinsRepoContentUrl: 'https://raw.githubusercontent.com/yousufpandith/coins',
   coinsRepoBranch: 'master',
   runtimeUpdatesEnabled: true,
   mappedFiles: {
