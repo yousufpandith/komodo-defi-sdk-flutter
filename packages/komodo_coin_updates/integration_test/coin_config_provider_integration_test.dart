@@ -238,14 +238,14 @@ void main() {
           coinsPath: 'coins',
           coinsConfigPath: 'utils/coins_config_unfiltered.json',
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
         final uri = provider.buildContentUri(
           'utils/coins_config_unfiltered.json',
         );
-        expect(uri.toString(), contains('gleecbtc.github.io'));
+        expect(uri.toString(), contains('yousufpandith.github.io'));
         expect(uri.toString(), isNot(contains('raw.githubusercontent.com')));
       });
 
@@ -259,7 +259,7 @@ void main() {
           coinsPath: 'coins',
           coinsConfigPath: 'utils/coins_config_unfiltered.json',
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -268,7 +268,7 @@ void main() {
         );
         expect(uri.toString(), contains('raw.githubusercontent.com'));
         expect(uri.toString(), contains('/dev/'));
-        expect(uri.toString(), isNot(contains('gleecbtc.github.io')));
+        expect(uri.toString(), isNot(contains('yousufpandith.github.io')));
       });
     });
 

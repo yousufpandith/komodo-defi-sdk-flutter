@@ -19,7 +19,7 @@ GithubCoinConfigProvider(
   coinsGithubApiUrl: 'https://api.github.com/repos/yousufpandith/coins',
   coinsPath: 'coins',
   coinsConfigPath: 'utils/coins_config_unfiltered.json',
-  cdnBranchMirrors: {'master': 'https://gleecbtc.github.io/coins'},
+  cdnBranchMirrors: {'master': 'https://yousufpandith.github.io/coins'},
   githubToken: envToken,
   transformer: const CoinConfigTransformer(),
 );

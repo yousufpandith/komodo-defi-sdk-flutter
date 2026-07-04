@@ -425,14 +425,14 @@ void main() {
           mappedFolders: {'assets/coins': 'icons'},
           concurrentDownloadsEnabled: true,
           cdnBranchMirrors: {
-            'master': 'https://gleecbtc.github.io/coins',
-            'dev': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'dev': 'https://yousufpandith.github.io/coins',
           },
         );
 
         expect(
           config.effectiveContentUrl,
-          equals('https://gleecbtc.github.io/coins'),
+          equals('https://yousufpandith.github.io/coins'),
         );
       });
 
@@ -450,8 +450,8 @@ void main() {
           mappedFolders: {'assets/coins': 'icons'},
           concurrentDownloadsEnabled: true,
           cdnBranchMirrors: {
-            'master': 'https://gleecbtc.github.io/coins',
-            'dev': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'dev': 'https://yousufpandith.github.io/coins',
           },
         );
 

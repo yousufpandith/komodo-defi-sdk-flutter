@@ -55,7 +55,7 @@ final config = AssetRuntimeUpdateConfig(
   },
   concurrentDownloadsEnabled: true,
   cdnBranchMirrors: {
-    'master': 'https://gleecbtc.github.io/coins',
+    'master': 'https://yousufpandith.github.io/coins',
   },
 );
 ```

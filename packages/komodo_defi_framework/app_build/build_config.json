@@ -65,7 +65,7 @@
   "coins": {
     "fetch_at_build_enabled": true,
     "update_commit_on_build": true,
-    "bundled_coins_repo_commit": "b8f85666325ca1cc6306ca113e7129d73e77e0f0",
+    "bundled_coins_repo_commit": "cb46ef779c7b6dd7b2db341ea290af6bca66fd15",
     "coins_repo_api_url": "https://api.github.com/repos/yousufpandith/coins",
     "coins_repo_content_url": "https://raw.githubusercontent.com/yousufpandith/coins",
     "coins_repo_branch": "master",
@@ -80,8 +80,8 @@
     },
     "concurrent_downloads_enabled": false,
     "cdn_branch_mirrors": {
-      "master": "https://gleecbtc.github.io/coins",
-      "main": "https://gleecbtc.github.io/coins"
+      "master": "https://yousufpandith.github.io/coins",
+      "main": "https://yousufpandith.github.io/coins"
     }
   }
 }

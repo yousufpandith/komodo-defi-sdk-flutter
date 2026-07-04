@@ -96,7 +96,7 @@ void main() {
     test('uses CDN base when exact branch mirror exists', () {
       final provider = createTestProvider(
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins',
+          'master': 'https://yousufpandith.github.io/coins',
         },
       );
 
@@ -105,7 +105,7 @@ void main() {
       );
       expect(
         uri.toString(),
-        'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+        'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
       );
     });
 
@@ -113,7 +113,7 @@ void main() {
       final provider = createTestProvider(
         branch: 'dev',
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins',
+          'master': 'https://yousufpandith.github.io/coins',
         },
       );
 
@@ -130,7 +130,7 @@ void main() {
       final provider = createTestProvider(
         branch: 'dev',
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins',
+          'master': 'https://yousufpandith.github.io/coins',
         },
       );
 
@@ -140,14 +140,14 @@ void main() {
       );
       expect(
         uri.toString(),
-        'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+        'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
       );
     });
 
     test('branchOrCommit override falls back to raw when not mirrored', () {
       final provider = createTestProvider(
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins',
+          'master': 'https://yousufpandith.github.io/coins',
         },
       );
 
@@ -179,7 +179,7 @@ void main() {
     test('uses raw URL for commit hash even when CDN is available', () {
       final provider = createTestProvider(
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins',
+          'master': 'https://yousufpandith.github.io/coins',
         },
       );
 
@@ -208,7 +208,7 @@ void main() {
     test('CDN base with trailing slash and path with leading slash', () {
       final provider = createTestProvider(
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins/',
+          'master': 'https://yousufpandith.github.io/coins/',
         },
       );
 
@@ -217,7 +217,7 @@ void main() {
       );
       expect(
         uri.toString(),
-        'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+        'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
       );
     });
 
@@ -241,7 +241,7 @@ void main() {
       test('master branch uses CDN URL without appending branch name', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -250,7 +250,7 @@ void main() {
         );
         expect(
           uri.toString(),
-          'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+          'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
         );
       });
 
@@ -258,7 +258,7 @@ void main() {
         final provider = createTestProvider(
           branch: 'main',
           cdnBranchMirrors: const {
-            'main': 'https://gleecbtc.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -267,7 +267,7 @@ void main() {
         );
         expect(
           uri.toString(),
-          'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+          'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
         );
       });
 
@@ -275,8 +275,8 @@ void main() {
         final provider = createTestProvider(
           branch: 'dev',
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
-            'main': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -286,7 +286,7 @@ void main() {
         );
         expect(
           uri.toString(),
-          'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+          'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
         );
       });
 
@@ -294,8 +294,8 @@ void main() {
         final provider = createTestProvider(
           branch: 'dev',
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
-            'main': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -305,7 +305,7 @@ void main() {
         );
         expect(
           uri.toString(),
-          'https://gleecbtc.github.io/coins/utils/coins_config_unfiltered.json',
+          'https://yousufpandith.github.io/coins/utils/coins_config_unfiltered.json',
         );
       });
     });
@@ -315,7 +315,7 @@ void main() {
         final provider = createTestProvider(
           branch: 'dev',
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -332,8 +332,8 @@ void main() {
         final provider = createTestProvider(
           branch: 'feature/new-coin-support',
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
-            'main': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -349,7 +349,7 @@ void main() {
       test('release branch uses GitHub raw URL even with CDN available', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -366,8 +366,8 @@ void main() {
       test('hotfix branch uses GitHub raw URL even with CDN available', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
-            'main': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -386,8 +386,8 @@ void main() {
       test('full 40-character commit hash uses GitHub raw URL', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
-            'main': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -404,7 +404,7 @@ void main() {
       test('different commit hash uses GitHub raw URL', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -421,8 +421,8 @@ void main() {
       test('commit hash with uppercase letters uses GitHub raw URL', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
-            'main': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
+            'main': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -439,7 +439,7 @@ void main() {
       test('mixed case commit hash uses GitHub raw URL', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -475,7 +475,7 @@ void main() {
       test('39-character string is treated as branch name', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -492,7 +492,7 @@ void main() {
       test('41-character string is treated as branch name', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -510,7 +510,7 @@ void main() {
       test('40-character string with non-hex characters is treated as branch', () {
         final provider = createTestProvider(
           cdnBranchMirrors: const {
-            'master': 'https://gleecbtc.github.io/coins',
+            'master': 'https://yousufpandith.github.io/coins',
           },
         );
 
@@ -545,7 +545,7 @@ void main() {
       final providerWithCdn = createTestProvider(
         httpClient: client,
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins',
+          'master': 'https://yousufpandith.github.io/coins',
         },
       );
 
@@ -556,7 +556,7 @@ void main() {
       );
 
       // The bug shows this URL is being generated:
-      // https://gleecbtc.github.io/coins/f7d8e39cd11c3b6431df314fcaae5becc2814136/utils/coins_config_unfiltered.json
+      // https://yousufpandith.github.io/coins/f7d8e39cd11c3b6431df314fcaae5becc2814136/utils/coins_config_unfiltered.json
       // But it should be:
       // https://raw.githubusercontent.com/yousufpandith/coins/f7d8e39cd11c3b6431df314fcaae5becc2814136/utils/coins_config_unfiltered.json
 
@@ -570,7 +570,7 @@ void main() {
       // Verify the URL does NOT contain the CDN base
       expect(
         uri.toString(),
-        isNot(contains('gleecbtc.github.io')),
+        isNot(contains('yousufpandith.github.io')),
         reason: 'CDN URLs should not be used for commit hashes',
       );
     });
@@ -690,14 +690,14 @@ void main() {
         coinsGithubContentUrl:
             'https://raw.githubusercontent.com/yousufpandith/coins/',
         cdnBranchMirrors: const {
-          'master': 'https://gleecbtc.github.io/coins/',
+          'master': 'https://yousufpandith.github.io/coins/',
         },
       );
 
       final cdnUri = p.buildContentUri('/coins/KMD.json');
       expect(
         cdnUri.toString(),
-        'https://gleecbtc.github.io/coins/coins/KMD.json',
+        'https://yousufpandith.github.io/coins/coins/KMD.json',
       );
 
       final rawP = createTestProvider(
